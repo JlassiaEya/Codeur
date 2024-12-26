@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>travaille</title>
+<style>
+</style>
+</head>
+<body>
+<h1>travaille</h1>
+<h2>Ajouter un élément</h2>
+<form action="/ajouter" method="post">
+<label for="id">id:</label><br>
+<input type="text" id="id" name="id"><br>
+<label for="titre">titre:</label><br>
+<input type="text" id="titre" name="titre"><br>
+<label for="date_creation">date_creation:</label><br>
+<input type="text" id="date_creation" name="date_creation"><br>
+<label for="gestionnaire_id">gestionnaire_id:</label><br>
+<input type="text" id="gestionnaire_id" name="gestionnaire_id"><br>
+<input type="submit" value="Ajouter">
+</form>
+<h2>Modifier un élément</h2>
+<form action="/modifier" method="post">
+<label for="id">ID de l'élément à modifier:</label><br>
+<input type="text" id="id" name="id"><br>
+<label for="id">Nouvelle valeur pour id:</label><br>
+<input type="text" id="id" name="id"><br>
+<label for="titre">Nouvelle valeur pour titre:</label><br>
+<input type="text" id="titre" name="titre"><br>
+<label for="date_creation">Nouvelle valeur pour date_creation:</label><br>
+<input type="text" id="date_creation" name="date_creation"><br>
+<label for="gestionnaire_id">Nouvelle valeur pour gestionnaire_id:</label><br>
+<input type="text" id="gestionnaire_id" name="gestionnaire_id"><br>
+<input type="submit" value="Modifier">
+</form>
+<h2>Supprimer un élément</h2>
+<form action="/supprimer" method="post">
+<label for="id">ID de l'élément à supprimer:</label><br>
+<input type="text" id="id" name="id"><br>
+<input type="submit" value="Supprimer">
+</form>
+</body>
+</html>
